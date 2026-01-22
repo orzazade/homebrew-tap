@@ -3,7 +3,7 @@ cask "gitch" do
   name "gitch"
   desc "Git identity manager - never commit with the wrong identity again"
   homepage "https://github.com/orzazade/gitch"
-  version "1.1.1"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gitch" do
   on_macos do
     on_intel do
       url "https://github.com/orzazade/gitch/releases/download/v#{version}/gitch_#{version}_darwin_amd64.tar.gz"
-      sha256 "894ab64f14bde9f989571fd9c6d92dca85e06ad046b7913dc7dfc1be570eb29f"
+      sha256 "5d3568b87efcefeb4cb8de95fc15dd76756fc2822c744fb9d9e05c02893a645d"
     end
     on_arm do
       url "https://github.com/orzazade/gitch/releases/download/v#{version}/gitch_#{version}_darwin_arm64.tar.gz"
-      sha256 "2afc40516333cde86372ac34073628702a527790e2596d022895410b7bbabd49"
+      sha256 "e54de9afba64a63c6e55fc432400aaa1ea7669b4584cb3b5ff713cf03a6c4ff3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/orzazade/gitch/releases/download/v#{version}/gitch_#{version}_linux_amd64.tar.gz"
-      sha256 "350fff921d19d851c52a5ef3baa001405f518be43322f2fba49f02df15c25228"
+      sha256 "256bdca20e961558f49d67875d20e6cc18516fee09635424446a9a7f6cd6e24f"
     end
     on_arm do
       url "https://github.com/orzazade/gitch/releases/download/v#{version}/gitch_#{version}_linux_arm64.tar.gz"
-      sha256 "694d6fa66651153b322ba491d9ee2267012d8d1ea35997d4e6b64442d4c94fd4"
+      sha256 "fe50fc47033019d10dadf450948bc571dc160904c40aecdd26f7541e86cf0cc9"
     end
   end
 
